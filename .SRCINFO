@@ -1,0 +1,16 @@
+pkgbase = flatcam-evo
+	pkgdesc = FlatCAM Evo - CAM app that turns Gerber/Excellon files into G-Code for PCB milling
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/jvegaf/flatcam
+	arch = x86_64
+	license = MIT
+	makedepends = uv
+	makedepends = git
+	depends = python>=3.14
+	optdepends = mesa: OpenGL rendering for the 2D/3D viewers
+	optdepends = chromium: headless browser used by pyppeteer (PDF import)
+	source = flatcam-evo::git+file:///home/th3g3ntl3man/Code/flatcam#branch=dev
+	sha256sums = SKIP
+
+pkgname = flatcam-evo

@@ -18,3 +18,7 @@ build/
 .worktrees/
 
 /.atl
+/flatcam-evo
+/pkg/flatcam-evo
+/flatcam-evo-0.1.0-1-x86_64.pkg.tar.zst
+/src/flatcam-evo
